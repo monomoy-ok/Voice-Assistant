@@ -11,7 +11,7 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "6ba772e955814570a7565300e8dd9a7d"
+newsapi = "<Enter Your api key>'
 
 
 def speak_old(text):
@@ -40,7 +40,7 @@ def speak(text):
 
 
 def aiprocess(command):
-    client = OpenAI(api_key="sk-proj-eY1aIKbkK8N0dPSCgLF4T3BlbkFJEbMTMeHNsFb95avpNSeD",
+    client = OpenAI(api_key="Enter Your api key",
     )
 
 
